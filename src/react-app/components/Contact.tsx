@@ -82,7 +82,7 @@ const Contact: React.FC = () => {
       label: 'Email',
       value: 'max.coin.tech@gmail.com',
       href: 'mailto:max.coin.tech@gmail.com',
-      color: 'text-purple-400'
+      color: 'text-blue-400'
     },
     {
       icon: MessageSquare,
@@ -122,12 +122,12 @@ const Contact: React.FC = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-black via-gray-900 to-purple-900 relative overflow-hidden">
+    <section id="contact" className="py-20 bg-gradient-to-br from-black via-gray-900 to-slate-900 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-20 left-10 w-96 h-96 bg-blue-500 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-cyan-500 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-purple-500/10 to-cyan-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-blue-500/10 to-cyan-500/10 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6" ref={ref}>
@@ -139,7 +139,7 @@ const Contact: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl lg:text-6xl font-black text-white mb-6">
-            <span className="bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-white via-blue-200 to-cyan-200 bg-clip-text text-transparent">
               Let's Create Something Amazing
             </span>
           </h2>
@@ -159,7 +159,7 @@ const Contact: React.FC = () => {
           >
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
               <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
-                <Send className="w-6 h-6 mr-3 text-purple-400" />
+                <Send className="w-6 h-6 mr-3 text-blue-400" />
                 Start Your Project
               </h3>
 
@@ -176,7 +176,7 @@ const Contact: React.FC = () => {
                       value={formData.name}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
                       placeholder="Enter your full name"
                     />
                   </div>
@@ -191,7 +191,7 @@ const Contact: React.FC = () => {
                       value={formData.email}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
+                      className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -266,7 +266,7 @@ const Contact: React.FC = () => {
                   className={`w-full py-4 px-8 rounded-2xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 ${
                     isSubmitting
                       ? 'bg-gray-600 text-gray-300 cursor-not-allowed'
-                      : 'bg-gradient-to-r from-purple-600 to-cyan-600 text-white hover:shadow-lg hover:shadow-purple-500/25'
+                      : 'bg-gradient-to-r from-blue-600 to-cyan-600 text-white hover:shadow-lg hover:shadow-blue-500/25'
                   }`}
                 >
                   {isSubmitting ? (
@@ -358,7 +358,7 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Quick Stats */}
-            <div className="bg-gradient-to-br from-purple-500/20 to-cyan-500/20 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
+            <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
               <h3 className="text-2xl font-bold text-white mb-6">Why Choose Me?</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">

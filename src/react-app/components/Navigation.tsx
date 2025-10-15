@@ -50,7 +50,7 @@ const Navigation: React.FC = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="flex items-center space-x-3"
           >
-            <div className="w-10 h-10 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-xl flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-xl flex items-center justify-center">
               <span className="text-white font-black text-lg">MC</span>
             </div>
             <span className="text-white font-bold text-xl">MaxCoinTech</span>
@@ -79,7 +79,7 @@ const Navigation: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
             onClick={() => scrollToSection('#contact')}
-            className="hidden md:block px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 text-white font-semibold rounded-2xl hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
+            className="hidden md:block px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-2xl hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
           >
             Let's Talk
           </motion.button>
@@ -117,7 +117,7 @@ const Navigation: React.FC = () => {
               ))}
               <button
                 onClick={() => scrollToSection('#contact')}
-                className="w-full mt-4 px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 text-white font-semibold rounded-2xl hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
+                className="w-full mt-4 px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-2xl hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
               >
                 Let's Talk
               </button>

@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gradient-to-b from-gray-900 to-black border-t border-white/10 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 left-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-10 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
         <div className="absolute top-0 right-10 w-96 h-96 bg-cyan-500 rounded-full blur-3xl"></div>
       </div>
 
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
             className="lg:col-span-2"
           >
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-xl flex items-center justify-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-xl flex items-center justify-center">
                 <span className="text-white font-black text-xl">MC</span>
               </div>
               <div>
@@ -143,7 +143,7 @@ const Footer: React.FC = () => {
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors duration-300 group"
                   >
-                    <contact.icon className="w-4 h-4 text-purple-400 group-hover:text-cyan-400 transition-colors" />
+                    <contact.icon className="w-4 h-4 text-blue-400 group-hover:text-cyan-400 transition-colors" />
                     <span className="text-sm">{contact.label}</span>
                   </a>
                 </li>
